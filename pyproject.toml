@@ -1,0 +1,17 @@
+[project]
+name = "bot-conversation-python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=2.13.0.2",
+    "msgraph-sdk>=1.0.0",
+    "python-dotenv>=1.2.1",
+    "requests==2.31.0",
+]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.3.0",
+]
